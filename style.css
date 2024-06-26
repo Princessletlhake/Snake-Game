@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: "Press Start 2P",system-ui ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9edc9;
+}
+
+.game-title{
+    display: flex;
+    color: #2b9348;
+    margin-top: 80px;
+
+}
+
+.snake-image{
+    width: 4%;
+}
+
+#game-board{
+    border: 10px solid #fb5607;
+    border-radius: 30px;
+    width: 400px;
+    height: 350px;
+    margin: 30px auto;
+    background-color:#ccd5ae ;
+}
+
+@media (min-width: 600px){
+    .body,
+    .game-title{
+       min-width: 50px;
+    }
+
+    #snake-image{
+        width: 60px;
+        height: 60px;
+    }
+
+    #game-board{
+       min-width: 100px;
+       min-height: 100px; 
+    }
+}
+
+#score{
+  font-size: 20px ;
+  color: #538d22;
+  border: 3px solid #fb5607;
+  border-radius: 30px;
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.5em;
+  background-color:#ffb703 ;
+}
+
+#reset-btn{
+    color: #e71d36 ;
+    font-size: 16px;
+    border: 3px solid #fb5607;
+    border-radius: 30px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px auto;
+    line-height: 1.5em;
+    cursor: pointer;
+    background-color: #ffb703;
+}
